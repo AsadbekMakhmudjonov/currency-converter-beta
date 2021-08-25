@@ -9,7 +9,26 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+  <div class="container-made p-3">
+    <form class="form" action="https://echo.htmlacademy.ru" method="GET">
+      <div class="box">
+        <h1 class="h4 mb-3">Najot Talim dollar, yevro pokupaem</h1>
+        <div class="box__wrapper d-flex">
+          <input class="form-control js-currency-input" type="number" name="currency__total" required>
 
+          <select class="js-currency-type form-control mx-2" name="currency_type" required>
+            <option value="10641">USD</option>
+            <option value="12475">Euro</option>
+            <option value="143">Rubl</option>
+          </select>
+
+          <output class="form-control"><output class="currency__sum"></output> <b> so'm</b></output>
+
+        </div>
+        <button class="btn btn-primary mt-3" type="submit">O'girish</button>
+      </div>
+    </form>
+  </div>
 </body>
 <script src="js/jquery-3.6.0.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
